@@ -31,10 +31,7 @@ export default function Quiz() {
 
   if (quizCompleted) {
     return (
-      <div id="summary">
-        <img src={quizCompleteImg} alt="Trophy icon" />
-        <h2>Quiz Completed!</h2>
-      </div>
+
     );
   }
 
